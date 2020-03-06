@@ -3,3 +3,41 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.list{
+	width: 960px;
+	margin: 50px auto;
+	list-style: none;
+}
+.list li{
+	line-height: 20px;
+	padding:20px;
+}
+.list li:nth-child(odd){
+	background-color: #C0C0C0;
+}
+.bigbox{
+	width: 960px;
+	margin: 0 auto 50px auto;
+}
+.box{
+	width: 30%;
+	height: 200px;
+	float: left;
+}
+.orange{
+	background-color: orange;
+}
+.yellow{
+	background-color: yellow;
+}
+.right{
+	margin-right: 5%;
+}
+.bottom{
+	margin-bottom: 40px;
+}
